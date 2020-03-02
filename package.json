@@ -9,7 +9,7 @@
     "babel": "babel src/script -d build/script",
     "webpack": "webpack",
     "test": "mocha test/mocha.js",
-    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha test/mocha.js"
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter test/mocha.js"
   },
   "repository": {
     "type": "git",
