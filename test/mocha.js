@@ -20,7 +20,7 @@ describe('#math', () => {
       expect(cover(2, 3)).to.equal(3);
     })
     it('should return 4  where cover(2, 2)', () => {
-      expect(cover(2, 2)).to.equal(4);
+      expect(cover(3, 3)).to.equal(6);
     })
     it('should return 1  where cover(2, 1)', () => {
       expect(cover(2, 1)).to.equal(1);
