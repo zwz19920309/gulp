@@ -1,0 +1,15 @@
+{
+  "presets": [
+    // "env",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-assign"
+  ]
+}

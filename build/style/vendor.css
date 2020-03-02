@@ -1,0 +1,10 @@
+.container {
+  margin: 30px auto;
+  width: 600px;
+}
+.box {
+  background: #eee;
+  color: #333;
+  padding: 10px;
+  font-size: 30px;
+}
