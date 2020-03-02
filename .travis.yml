@@ -6,3 +6,5 @@ brancher:
   only:
     - "dev"
     - "master"  
+script:
+  - "npm run cover" 
